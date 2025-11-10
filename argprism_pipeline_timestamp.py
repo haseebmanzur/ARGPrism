@@ -128,7 +128,7 @@ if __name__=="__main__":
     input_fasta = "Input_proteins/ERR589503_PROT.faa"       # Your novel protein FASTA input
     classifier_path = "trained_model/best_model_fold4.pth"
     predicted_ARGs_fasta = "predicted_ARGs.fasta"
-    arg_db_fasta = "ARGPrism-DB.fasta"          # ARG reference database FASTA
+    arg_db_fasta = "ARGPrismDB.fasta"          # ARG reference database FASTA
     diamond_db_prefix = "diamond_arg_db"
     diamond_output = "predicted_ARGs_vs_ref.tsv"
     metadata_json = "metadata_arg.json"  # ARG metadata JSON
