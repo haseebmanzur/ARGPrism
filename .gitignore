@@ -121,6 +121,7 @@ dmypy.json
 # Conda
 *.conda
 conda-build/
+conda-build_old/
 .conda/
 
 # IDEs
