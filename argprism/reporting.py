@@ -48,8 +48,8 @@ def generate_report(
                             seq_id,
                             "ARG",
                             ref_id,
-                            meta.get("ARG_name", ""),
-                            meta.get("drug", ""),
+                            meta.get("ARG", ""),
+                            meta.get("Drug", ""),
                         ]
                     )
                 else:
