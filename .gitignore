@@ -1,15 +1,8 @@
-conda-build_old
-
 # IDEs
 .vscode/
 __pycache__
 
 # ARGprism specific
+Test_arg_output/
 results/
-test_results/
-batch_results/
-output/
-*.dmnd
-*.tsv
-predicted_ARGs.fasta
-final_ARG_prediction_report.csv
+argprism.egg-info/
