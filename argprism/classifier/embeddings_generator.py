@@ -11,7 +11,7 @@ from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from transformers import AlbertModel, AlbertTokenizer
 
-from .constants import PROT_ALBERT_MODEL
+from ..io.file_paths import PROT_ALBERT_MODEL
 
 
 def load_plm(device: torch.device) -> tuple[AlbertTokenizer, AlbertModel]:

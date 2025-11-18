@@ -1,4 +1,4 @@
-"""Reporting helpers for ARGprism."""
+"""Reporting output for ARGprism."""
 
 from __future__ import annotations
 

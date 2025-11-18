@@ -7,8 +7,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Optional
 
-from .classifier import ARGClassifier, classify_embeddings, load_classifier
-from .constants import (
+from ..classifier.arg_classifier import ARGClassifier, classify_embeddings, load_classifier
+from ..io.file_paths import (
     DEFAULT_ARG_DB,
     DEFAULT_CLASSIFIER_PATH,
     DEFAULT_DIAMOND_OUTPUT,
@@ -18,11 +18,11 @@ from .constants import (
     DEFAULT_REPORT,
     PACKAGE_ROOT,
 )
-from .device import select_device
-from .diamond import run_diamond
-from .embeddings import generate_embeddings, load_plm
-from .io_utils import save_predicted_args
-from .reporting import generate_report, load_metadata, parse_diamond_hits
+from .device_manager import select_device
+from ..analysis.diamond_mapping import run_diamond
+from ..classifier.embeddings_generator import generate_embeddings, load_plm
+from ..io.sequence_io import save_predicted_args
+from ..analysis.reporter import generate_report, load_metadata, parse_diamond_hits
 
 
 @dataclass

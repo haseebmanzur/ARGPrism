@@ -5,8 +5,8 @@ from __future__ import annotations
 import argparse
 from typing import Iterable, Optional
 
-from . import __version__
-from .constants import (
+from .. import __version__
+from ..io.file_paths import (
     DEFAULT_ARG_DB,
     DEFAULT_CLASSIFIER_PATH,
     DEFAULT_DIAMOND_OUTPUT,
@@ -15,7 +15,7 @@ from .constants import (
     DEFAULT_OUTPUT_FASTA,
     DEFAULT_REPORT,
 )
-from .pipeline import run_pipeline
+from ..core.pipeline import run_pipeline
 
 
 def _build_parser() -> argparse.ArgumentParser:
