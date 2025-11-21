@@ -43,7 +43,7 @@ test:
     - argprism --version
 
 about:
-  home: https://github.com/muneebdev7/ARGprism
+  home: https://github.com/haseebmanzur/ARGPrism
   license: MIT
   license_file: LICENSE
   summary: "ARGprism: Deep Learning-based Antibiotic Resistance Gene Prediction Pipeline"
@@ -52,8 +52,8 @@ about:
     from protein sequences using deep learning. It employs ProtAlbert embeddings and a
     trained neural network classifier, followed by DIAMOND BLAST mapping against a reference
     ARG database for functional annotation.
-  dev_url: https://github.com/muneebdev7/ARGprism
-  doc_url: https://github.com/muneebdev7/ARGprism#readme
+  dev_url: https://github.com/muneebdev7/ARGPrism_dev
+  doc_url: https://github.com/haseebmanzur/ARGPrism/blob/main/README.md
 
 extra:
   recipe-maintainers:

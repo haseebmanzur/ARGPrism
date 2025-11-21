@@ -1,4 +1,4 @@
-"""Classifier utilities for ARGprism."""
+"""Classifier utilities for ARGPrism."""
 
 from __future__ import annotations
 
