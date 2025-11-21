@@ -3,7 +3,14 @@
 from __future__ import annotations
 
 import argparse
+import os
 from typing import Iterable, Optional
+
+# Set threading environment variables BEFORE any PyTorch/ML imports
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"  
+os.environ["NUMEXPR_NUM_THREADS"] = "1"
+os.environ["OMP_NUM_THREADS"] = "1"
 
 from .. import __version__
 from ..io.file_paths import (
